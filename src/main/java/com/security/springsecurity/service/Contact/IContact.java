@@ -9,12 +9,12 @@ public interface IContact {
 
     public List<Contact> listAllContacts();
 
-    public Contact createContact(Contact asunto);
+    public Contact createContact(Contact contact);
 
     public Contact findContactById(Long id);
 
     public void deleteContactById(Long id);
 
-    public Contact updateContact(Long id,Contact asunto);
+    public void updateContact(Long id,Contact contact);
 
 }
